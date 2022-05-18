@@ -208,7 +208,6 @@ time.sleep(3)
 driver.find_element_by_xpath('//*[@id="app"]/div[2]/div[3]/div[1]/div[2]/section[3]/div/ul/li[1]/form/div/div[2]/input').send_keys(password)
 time.sleep(3)
 driver.find_element_by_xpath('//*[@id="app"]/div[2]/div[3]/div[1]/div[2]/section[3]/div/ul/li[1]/form/div/div[3]/button').click()
-time.sleep(3)
+time.sleep(5)
 
-time.sleep(20)
 driver.close()
